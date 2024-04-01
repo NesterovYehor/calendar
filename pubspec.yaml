@@ -1,0 +1,42 @@
+name: calendar
+description: "A new Flutter project."
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider:
+  hive:
+  hive_flutter:
+  popover:
+
+  cupertino_icons: ^1.0.2
+  table_calendar: ^3.1.1
+  flutter_launcher_icons:
+  flutter_local_notifications:
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "images/icon.png"
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
